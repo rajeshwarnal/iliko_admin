@@ -4,7 +4,7 @@ import {
   Loader2, AlertCircle, RefreshCw, Shield
 } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const MerchantSettings = () => {
   // State management

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../config/api';
 
 const AuthContext = createContext(null);
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, Image, X, Check, AlertCircle, Loader2, RefreshCw } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const MerchantProfileMedia = () => {
   // State management

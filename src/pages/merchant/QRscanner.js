@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { QrCode, Camera, Upload, Check, X, User, Award, Loader2, AlertCircle } from 'lucide-react';
 import { QRCodeSVG } from 'qrcode.react';
 
-const API_BASE_URL = 'http://192.168.31.224:3000/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const MerchantQRScanner = () => {
   const [scanResult, setScanResult] = useState(null);

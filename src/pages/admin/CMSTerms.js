@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FileText, Plus, Edit, Trash2, Eye, Save, Loader2, X, BookOpen, Shield, HelpCircle } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminCMSPages = () => {
   const [pages, setPages] = useState([]);

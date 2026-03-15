@@ -4,7 +4,7 @@ import {
   Clock, DollarSign, Tag, CheckCircle, Loader2, AlertCircle, RefreshCw 
 } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const MerchantBusinessInfo = () => {
   // State management

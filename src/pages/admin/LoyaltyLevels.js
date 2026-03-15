@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Award, Plus, Edit, Trash2, TrendingUp, Users, Loader2, X, Upload } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminLoyaltyLevels = () => {
   const [levels, setLevels] = useState([]);

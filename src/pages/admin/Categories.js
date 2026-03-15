@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Tag, Plus, Edit, Trash2, Store, Loader2 } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminCategories = () => {
   const [categories, setCategories] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, Check, X, Eye, Mail, Phone, MapPin, Loader2 } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminPendingApprovals = () => {
   const [pending, setPending] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { User, Bell, Shield, Database, DollarSign, Globe, Save, Loader2, AlertCircle, CheckCircle } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminSettings = () => {
   const [loading, setLoading] = useState(false);

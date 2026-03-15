@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Image, Plus, Edit, Trash2, Eye, EyeOff, Loader2, X, Upload } from 'lucide-react';
 
-const API_BASE_URL = 'https://ilikoapi.duckdns.org/api/v1';
+import { API_BASE_URL } from '../../config/api';
 
 const AdminBanners = () => {
   const [banners, setBanners] = useState([]);
